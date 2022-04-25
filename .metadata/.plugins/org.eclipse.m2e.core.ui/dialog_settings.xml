@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\SpringMVC-Step07"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\spring-in-5-steps-noboot"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\spring-in-5-steps"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\springboot-in-15-steps"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\spring-aop"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\simple-maven-project"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\mockito-demo"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\maven-in-five-steps"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\learn-spring-framework"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\learn-spring-boot"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\first-web-app"/>
+			<item value="J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\database-demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

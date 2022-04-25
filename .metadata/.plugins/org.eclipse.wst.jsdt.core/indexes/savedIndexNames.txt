@@ -1,0 +1,3 @@
+INDEX VERSION 1.4+J:\Tigjaw\Documents\Work\Java\workspace - spring 5 master class\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+285782489.index
+1171770053.index

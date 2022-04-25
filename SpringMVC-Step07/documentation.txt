@@ -1,0 +1,10 @@
+http://localhost:8080/spring-mvc/login
+
+Web.xml maps "/spring-mvc/*" to a DispatcherServlet
+
+DispatcherServlet is a FrontController
+
+login method maps "/login" to the login method
+
+This returns a String which is mapped to a ".jsp"
+by todo-servlet.xml ViewResolver bean
