@@ -17,7 +17,7 @@
 		<br>
 		<form action="login.do" method="post">
 			<p><font color="red">${error}</font></p>
-			Username: <input type="text" name="name"/>
+			Username : <input type="text" name="name"/>
 			<br>
 			Password : <input type="password" name="password"/>
 			<input type="submit" value="Login"/>

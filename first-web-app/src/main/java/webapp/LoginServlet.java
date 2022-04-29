@@ -32,30 +32,30 @@ public class LoginServlet extends HttpServlet {
 			throws IOException, ServletException {
 		// attribute (parameter) comes after http://localhost:8080/?get1=
 		
-		String get1 = request.getParameter("get1");
-		String get2 = request.getParameter("get2");
+		String get1 = request.getParameter(Resources.GET1);
+		String get2 = request.getParameter(Resources.GET2);
 		
-		request.setAttribute("get1", get1);
-		request.setAttribute("get2", get2);
+		request.setAttribute(Resources.GET1, get1);
+		request.setAttribute(Resources.GET2, get2);
 		
-		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
+		request.getRequestDispatcher(Resources.VIEWS_LOGIN).forward(request, response);
 	}
 	
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
 		// attributes submitted via jsp form
-		String name = request.getParameter("name");
-		String password = request.getParameter("password");
+		String name = request.getParameter(Resources.NAME);
+		String password = request.getParameter(Resources.PASSWORD);
 		
 		boolean isUserValid = service.isUserValid(name, password);
 		if (isUserValid) {
-			request.setAttribute("name", request.getParameter("name"));
-			request.setAttribute("password", request.getParameter("password"));
-			request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+			request.setAttribute(Resources.NAME, name);
+			request.setAttribute(Resources.PASSWORD, password);
+			request.getRequestDispatcher(Resources.VIEWS_WELCOME).forward(request, response);
 		} else {
-			request.setAttribute("error", "Invalid username or password");
-			request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
+			request.setAttribute(Resources.ERROR, Resources.INVALID_CREDENTIALS);
+			request.getRequestDispatcher(Resources.VIEWS_LOGIN).forward(request, response);
 		}
 	}
 
