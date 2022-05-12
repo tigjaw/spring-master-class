@@ -1,7 +1,6 @@
-# spring-master-class
-Spring master-class coursework & personal experiments
+### Spring Framework Master Class - a Udemy Course by in28minutes
 
-Coursework from Spring Master Class - a Udemy Course by in28minutes:
+This repository contains coursework and personal experiments.
 
 [Udemy - in28minutes course details](https://www.udemy.com/course/spring-tutorial-for-beginners/)
 
